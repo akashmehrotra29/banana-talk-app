@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet');
+
+body{
+    font-family: 'Caveat', cursive;
+    margin: 0px;
+
+}
+
+:root{
+    --primary-color: #f2c94c;
+    --black: #111827
+}
+
+/* Navigation */
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--black);
+    padding: 1.5rem; 
+    font-size: xx-large;
+}
+
+.heading{
+    text-align: center;
+}
+
+/* Header */
+.hero{
+    padding: 1rem;
+}
+
+.hero .hero-img{
+    display: block;
+    margin: auto;
+    max-width: 150px;
+    padding: 1rem;
+
+}
+
+/* Text area input */
+textarea{
+    width: 300px;
+    height: 15vh;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Button */
+button{
+    background-color: var(--primary-color);
+    color: var(--black);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: larger;
+    font-family: 'Dancing Script', cursive ;
+    margin: 1rem 0rem;
+}
+    
+
+/* output */
+.output-box-text{
+    
+    font-size: larger;
+}
+
+.output-box{
+    box-sizing: border-box;
+    width: 305px;
+    height: 12vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    margin: 2rem;
+    padding: 1rem;
+    font-size: large;
+
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 1.5rem 0rem;
+    color: var(--black)
+}
+
+.footer .footer-header {
+    font-weight: bolder;
+    font-size: x-large;
+    color: var(--black);
+    padding: 1rem;
+}
+
+.footer .footer-text{
+    font-size: larger;
+    max-width: 300px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
